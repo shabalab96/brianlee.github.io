@@ -1,0 +1,38 @@
+/*------------------------------*\
+  Brian Lee Personal Website CSS
+\*------------------------------*/
+
+
+.globalfont {
+	font-family: Passion One, Permanent Marker;
+	color: orange;
+}
+
+.sectiondiv {
+  text-align: center;
+  font-size: 50px;
+  padding: 4em 15% 4em 15%;
+}
+
+.imagecenter {
+  display: block;
+  margin: auto;
+}
+
+#titletext {
+  font-size: 90px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#musictext {
+  padding: 1em 0% 1em 0%;
+}
+
+p {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 70px;
+}
