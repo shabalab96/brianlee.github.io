@@ -22,7 +22,7 @@
 .coursestable {
   width: 100%;
   border: "10px solid white";
-  padding: 20px;
+  padding: 50px;
   border-spacing: 20px;
   border-collapse: separate;
 }
@@ -42,7 +42,7 @@ p {
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 td {
