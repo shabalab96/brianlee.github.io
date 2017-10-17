@@ -19,6 +19,7 @@
   margin: auto;
 }
 
+
 #titletext {
   font-size: 90px;
   padding-top: 3em;
@@ -35,4 +36,8 @@ p {
 
 h2 {
   font-size: 70px;
+}
+
+td {
+  text-align: center
 }
