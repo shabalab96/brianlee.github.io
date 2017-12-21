@@ -52,3 +52,30 @@ td {
   color: white;
   padding: 20px;
 }
+
+/*testing grounds*/
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /**/
+  position: fixed;
+  top: 1em;
+  width: 100%;
+}
+
+nav ul li{
+  display: inline;
+  margin: 0em 2em;
+  font-size: 1.5vw;
+}
+
+nav {
+  background-color: white;
+}
+
