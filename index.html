@@ -1,63 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-  
     <meta charset="utf-8">
-  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Passion+One|Permanent+Marker|American+Writer">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <!-- should this be at the bottom of the page??? -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Brian Lee</title>
-	
+    <link rel="stylesheet" href="css/globalstyle.css">
+    <link rel="stylesheet" href="css/indexstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Brian Lee - Home</title>
   </head>
-  <body class="container-fluid">
-	<section id="title">
-	  <h1 class="text-center globalfont" id="titletext">Brian Lee's Website</h1>
-	</section>
-	<section id="introduction">
-    <div class="sectiondiv">
-      <p class="globalfont" id="introtext">
-        I'm a university student who is learning to build a website for fun and to gain some knowledge about web development.
-      </p>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img id="navBtn" src="images/Hamburger Menu Icon.png" alt="Navigation" onclick="navToggle()">
+        </li>
+        <li><a href="index.html"><img src="images/Home Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="bio.html"><img src="images/Bio Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="projects.html"><img src="images/Projects Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="music.html"><img src="images/Music Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="contact.html"><img src="images/Contact Icon.png"><span class="navLbl"></span></a></li>
+      </ul>
+    </nav>
+    <div>
+      <h1 id="indexName">Brian Lee</h1>
+      <h2 id="indexSub">Comp Sci Student.<br>Music Enthusiast.<br>Clumsy Gamer.</h2>
     </div>
-	</section>
-  <section id="Courses">
-    <div class="sectiondiv">
-      <h2 class="globalfont">
-        Computer Science Courses I've Taken.
-      </h2>
-      <table class="coursestable">
-        <tr>
-          <td bgcolor="#42f495">More to come...</td>
-          <td bgcolor="#a2f27d">CSC263 Data Structures and Analysis</td>
-          <td bgcolor="#ea7e3f">CSC258 Computer Organization</td>
-          <td bgcolor="#4fbeff">CSC236 Introduction to the Theory of Computation</td>
-        </tr>
-        <tr>
-          <td bgcolor="#f98f6b">CSC209 Software Tools and Systems Programming</td>
-          <td bgcolor="#30a340">CSC207 Software Design</td>
-          <td bgcolor="#63d7ff">CSC148 Introduction to Computer Science</td>
-          <td bgcolor="#ffc802">CSC108 Introduction to Computer Programming</td>
-        </tr>
-      </table>
-    </div>
-  </section>
-	<section id="music">
-	  <div class="sectiondiv">
-      <h2 class="globalfont" id="musictext">
-        What I'm currently listening to.
-      </h2>
-      <iframe src="https://open.spotify.com/embed/user/shabalab96/playlist/0MRkKMIZ6tRUeKGuxVJotz" 
-      width="70%" height="305" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-  </section>
-  <section>
-    <div class="sectiondiv">
-      <h2 class="globalfont"><a href="testing_grounds.html">Testing Grounds</a></h2> 
-    </div>
-  </section>
-  <script src="scripts/main.js"></script>
+    <script src="scripts/navToggle.js"></script>
   </body>
 </html>

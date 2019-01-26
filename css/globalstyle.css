@@ -1,0 +1,131 @@
+
+@font-face {
+  font-family: 'Rockin Record';
+  src: url('../fonts/gomarice_rockin_record-webfont.woff2') format('woff2'),
+       url('../fonts/gomarice_rockin_record-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 5.5em; /* default 16px */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+  color: #ff9638;
+  font-family: 'Rockin Record';
+  font-size: 12vw;
+  font-weight: normal;
+  margin: 0;
+  padding: .5em 0 .5em 0;
+  text-align: center;
+}
+
+h2, p {
+  color: #2cb0a2;
+  font-family: 'Rockin Record';
+  font-size: 35%;
+  font-size: 2.5vw;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  margin: 0 15% 5% 15%;
+}
+
+nav {
+  height: 100%;
+  position: fixed;
+  background: white;
+  border-right: 8px solid #2cb0a2;
+  box-sizing: content-box;
+  padding: 1% 1%;
+  z-index: 1;
+}
+
+nav ul {
+  color: #2cb0a2;
+  float: left;
+  font-family: "Rockin Record";
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  width: 100%;
+  color: #2cb0a2;
+  display: inline-block;
+  margin: 0.2em 0;
+  padding: 0;
+}
+
+nav li {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav img {
+  height: 1em;
+  display: inline-block;
+  text-align: left;
+  margin: 0 5% 0 0;
+  padding: 0;
+}
+
+.fadein {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  opacity: 0.8;
+}
+
+.fadein:hover {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -ms-transition: opacity .1s ease-in-out;
+  -o-transition: opacity .1s ease-in-out;
+  opacity: 1;
+}
+
+.fadeout {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  opacity: 1;
+}
+
+.fadeout:hover {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -ms-transition: opacity .1s ease-in-out;
+  -o-transition: opacity .1s ease-in-out;
+  opacity: 0.8;
+}
+
+#navBtn {
+  cursor: pointer;
+}

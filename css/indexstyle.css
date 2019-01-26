@@ -1,0 +1,18 @@
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+#indexName {
+  position: relative;
+  top: 25%;
+  margin: 0;
+  padding: 0;
+}
+
+#indexSub {
+  position: relative;
+  top: 30%;
+  margin: 0;
+}

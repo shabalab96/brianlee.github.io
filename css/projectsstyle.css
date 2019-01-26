@@ -1,0 +1,26 @@
+
+#websitediv {
+  display: table;
+  width: 70%;
+  height: 60%;
+  background: #ff9638;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 0 auto 10% auto;
+}
+
+#websitediv h2 {
+  display: table-cell; 
+  vertical-align: middle;
+  color: white;
+  font-size: 70%;
+  font-size: 6vw;
+  cursor: pointer;
+  text-align: center;
+}
+
+#chopChopImg {
+  width: 70%;
+  display: block;
+  margin: 0 auto 5% auto;
+}

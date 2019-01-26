@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/globalstyle.css">
+    <link rel="stylesheet" href="css/projectsstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Brian Lee - Projects</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img id="navBtn" src="images/Hamburger Menu Icon.png" alt="Navigation" onclick="navToggle()">
+        </li>
+        <li><a href="index.html"><img src="images/Home Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="bio.html"><img src="images/Bio Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="projects.html"><img src="images/Projects Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="music.html"><img src="images/Music Icon.png"><span class="navLbl"></span></a></li>
+        <li><a href="contact.html"><img src="images/Contact Icon.png"><span class="navLbl"></span></a></li>
+      </ul>
+    </nav>
+    <h1>Projects</h1>
+    <a href="https://play.google.com/store/apps/details?id=com.something.eagletest.eaglething">
+      <img id="chopChopImg" class="fadein" src="images/Chop Chop Feature Graphic.png" alt="Chop Chop Game">
+    </a>
+    <div id="websitediv" class="fadein" onclick="colorswap()">
+      <h2 onclick="colorswap()">This Website!</h2>
+    </div>
+    <script src="scripts/navToggle.js"></script>
+    <script>
+      var colors = ["#ff2a00", "#7bbc20", "#0c81ff", "#20bc95", "#ffd232"];
+      function colorswap() {
+        var randcolor = colors[Math.floor(Math.random() * colors.length)];
+        document.getElementById("websitediv").style.background = randcolor;
+      };
+    </script>
+  </body>
+</html>

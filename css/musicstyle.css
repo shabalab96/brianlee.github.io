@@ -1,0 +1,40 @@
+
+#bottomsection {
+  width: 70%;
+  height: 50%;
+  display: block;
+  margin: 0 auto 10% auto;
+}
+
+#listentothisdiv {
+  width: 38%;
+  height: 100%;
+  display: table;
+  background: #2cb0a2;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+#listentothisdiv h2 {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+#spotifyframe {
+  width: 58%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#youtubeframe {
+  width: 70%;
+  height: 80%;
+  display: block;
+  margin: 0 auto 5% auto;
+}
